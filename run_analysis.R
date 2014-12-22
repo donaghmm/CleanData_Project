@@ -1,5 +1,5 @@
 library(dplyr)
-setwd("./downloads/UCI HAR Dataset")
+setwd("./UCI HAR Dataset")
 fn_activity_labels = "activity_labels.txt"
 df_activity_labels <- read.table(fn_activity_labels, header = FALSE, sep = " ")
 fn_features_labels = "features.txt"
